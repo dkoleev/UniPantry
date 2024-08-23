@@ -1,6 +1,6 @@
 # UniPantry
 Unity wrapper for the Pantry API - https://getpantry.cloud
-===
+
 ## Getting started
 Install via UPM package with git reference or asset package(UniPantry.*.*.*.unitypackage) available in [UniPantry/releases](https://github.com/dkoleev/UniPantry/releases).
 
