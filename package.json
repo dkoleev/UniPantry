@@ -2,11 +2,18 @@
   "name": "com.yogi.unipantry",
   "displayName": "UniPantry",
   "version": "1.0.0",
-  "unity": "2022.3",
+  "unity": "2021.3",
   "description": "Unity wrapper for the Pantry API - https://getpantry.cloud",
   "author": {
 	  "name" : "Dmitry Koleev",
 	  "email" : "dmitry.koleev@gmail.com",
 	  "url" : "https://twitter.com/dkoleev"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Requests sample",
+      "description": "Contains sample with all possible requests to Pantry.",
+      "path": "Samples~/SampleRequests"
+    }
+  ]
 }

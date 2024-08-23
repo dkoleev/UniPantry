@@ -1,9 +1,0 @@
-{
-    "samples": [
-        {
-            "displayName": "Requests sample",
-            "description": "Contains sample with all possible requests to Pantry.",
-            "path": "Samples~/SampleRequests"
-        }
-    ]
-}
