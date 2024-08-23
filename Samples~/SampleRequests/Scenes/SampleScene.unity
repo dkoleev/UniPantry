@@ -1300,8 +1300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0472ab9e9dbd4cc8898b4bdb431159ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pantryId: 4652c6d8-effc-4581-973a-bd9b5345e32a
-  basketId: resources
+  pantryId: 
+  basketId: 
   getPantry: {fileID: 1814140002}
   updatePantryInfo: {fileID: 63032434}
   getBasket: {fileID: 777240412}

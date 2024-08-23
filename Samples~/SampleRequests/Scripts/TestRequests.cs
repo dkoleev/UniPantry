@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Assertions;
 using UnityEngine.UI;
 using Yogi.UniPantry.Runtime;
 
@@ -20,7 +21,9 @@ namespace UniPantry.Samples.SampleRequests.Scripts {
         private void Awake() {
             _pantry = new Pantry();
             InitializeData();
-
+            
+            Assert.IsTrue(!string.IsNullOrEmpty(pantryId), "Enter your PantryID into field on Manager game object.");
+            Assert.IsTrue(!string.IsNullOrEmpty(basketId), "Enter your BasketID into field on Manager game object.");
         }
 
         private void InitializeData() {
